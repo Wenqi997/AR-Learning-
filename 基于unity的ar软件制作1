@@ -1,0 +1,15 @@
+版本使用： unity 2017.3 + 自带vuforia插件7.0.36
+
+首先进行软件的安装，这里不在赘述。
+点击Unity上方的GameObject，选择vurforia，点击创建AR camera
+若为初次安装，会有安装提示，点击同意进行安装
+
+安装完毕后，需要点击上方“File”中的BuildSetting进行配置
+点击后，点击出现弹框最下端的palyer setting进行配置
+然后在右侧出现的“XR setting”中，勾选Vuforia augument reality
+vuforia的基本配置就完成了
+
+接下来，进行生成licensekey注册
+在vuforia中注册后
+复制licensekey到 ar camera中“open vuforia configuration”中的 app license key中
+注册认证的基本工作就完成了
